@@ -1,0 +1,16 @@
+Dataset Name,Dataset source/creator,Link to Dataset,Country,State,Temporal Resolution,Temporal range start,Temporal range end,Spatial Resolution,Description,Keywords
+New York Times Covid-19 Cases,New York Times,https://github.com/nytimes/covid-19-data,United States,New York,Day,2020/1/21,2020/4/24,Country and State,"The New York Times is releasing a series of data files with 
+cumulative counts of coronavirus cases in the United States, at the 
+state and county level, over time. We are compiling this time series 
+data from state and local governments and health departments in an 
+attempt to provide a complete record of the ongoing outbreak.
+Since late January, The Times has tracked cases of coronavirus in 
+real time as they were identified after testing. Because of the 
+widespread shortage of testing, however, the data is necessarily limited
+ in the picture it presents of the outbreak.
+We have used this data to power our maps and reporting
+ tracking the outbreak, and it is now being made available to the public
+ in response to requests from researchers, scientists and government 
+officials who would like access to the data to better understand the 
+outbreak.","COVID-19, New York Times, USA"
+World COVID-19 Daily Cases with Basemap,China Data Lab,https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/L20LOT,World,,Day,2020/1/22,2020/4/18,Country,"Updated to April 18, 2020. World COVID-19 daily cases with basemap, starting from January 22, 2020.","2019-nCoV, statistics"
