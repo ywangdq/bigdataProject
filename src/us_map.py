@@ -23,17 +23,17 @@ for d in cdata.rdate.sort_values().unique():
 
 # draw confirmed cases heat map
 confirmed_map = folium.Map(location=[48, -102], zoom_start=3)
-HeatMapWithTime(confirmed_list,radius=10,\
+HeatMapWithTime(confirmed_list,radius=20,\
                 gradient={0.2:'blue',0.4:'lime',0.6:'orange',1:'red'},\
                 min_opacity=0.5,max_opacity=0.8,\
-                use_local_extrema=False).add_to(confirmed_map)
+                use_local_extrema=True).add_to(confirmed_map)
 
 # draw deaths cases heat map
 deaths_map = folium.Map(location=[48, -102], zoom_start=3)
-HeatMapWithTime(deaths_list,radius=10,\
+HeatMapWithTime(deaths_list,radius=20,\
                 gradient={0.2:'blue',0.4:'lime',0.6:'orange',1:'red'},\
                 min_opacity=0.5,max_opacity=0.8,\
-                use_local_extrema=False).add_to(deaths_map)
+                use_local_extrema=True).add_to(deaths_map)
 
 # save map
 confirmed_map.save(os.path.join('graphs','us_confirmed_heatmap.html'))
